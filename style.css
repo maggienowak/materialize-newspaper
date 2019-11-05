@@ -1,7 +1,19 @@
+body {
+	background: black;
+}
+
+header {
+	background: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: 'Bowlby one', cursive;
+}
+
 h1 {
-	color: red;
-	font-family: 'DM Serif Text', serif;
-	font-size: 100px;
+	color: white;
+	font-family: 'Bowlby One', cursive;
+	font-size: 40px;
 }
 
 h3 {
@@ -12,4 +24,8 @@ h3 {
 p {
 	font-size: 18px;
 	line-height: 1.6;
+}
+
+a {
+
 }
