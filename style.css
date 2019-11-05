@@ -18,7 +18,7 @@ h1 {
 
 h3 {
 	font-size: 50px;
-	font-family: 'DM Serif Text', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -26,6 +26,11 @@ p {
 	line-height: 1.6;
 }
 
-a {
+a { color:white;} /* Globally */
 
-}
+/* Each state */
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:lavender; }
+a:focus { text-decoration: none; color:lavender; }
+a:hover, a:active { text-decoration: none; color: lavender; }
